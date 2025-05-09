@@ -1,0 +1,19 @@
+{
+  "nav":{
+    "home": "Startseite",
+    "about": "Über mich",
+    "angebote": "Angebote",
+    "cost": "Behandlungskosten",
+    "contact": "Kontakt"
+
+  },
+  "home": {
+    "title": "Willkommen",
+    "description": "Dies ist die deutsche Startseite.",
+    "button": "Klicken Sie hier"
+  },
+  "about": {
+    "title": "Über uns",
+    "content": "Mehr über uns erfahren."
+  }
+}

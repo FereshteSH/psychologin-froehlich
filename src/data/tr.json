@@ -1,0 +1,19 @@
+{
+  "nav":{
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "angebote": "Hizmetlerim",
+    "cost": "Seans Ücretleri",
+    "contact": "iletisim"
+  },
+  "home": {
+    "title": "Hoşgeldiniz",
+    "description": "Bu, Türkçe ana sayfanız.",
+    "button": "Buraya tıklayın"
+
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "content": "Bizimle ilgili daha fazla bilgi."
+  }
+}
