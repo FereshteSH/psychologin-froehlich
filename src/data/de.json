@@ -15,5 +15,9 @@
   "about": {
     "title": "Über uns",
     "content": "Mehr über uns erfahren."
+  },
+  "kontakt": {
+    "title": "Kontakt",
+    "content": "Kontakt"
   }
 }

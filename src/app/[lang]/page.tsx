@@ -9,7 +9,7 @@ export default async function Home({ params }: { params: Params }) {
     <main>
       <h1>{content.title}</h1>
       <p>{content.description}</p>
-      <button>{content.button}</button>
+      {/* <button>{content.button}</button> */}
     </main>
   );
 }

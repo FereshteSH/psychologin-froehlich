@@ -18,8 +18,11 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <button onClick={handleClick}>
+    <div>
+    <button onClick={handleClick} className='btndetr'>
       {switchLang.toUpperCase()}
     </button>
+       
+    </div>
   );
 }
