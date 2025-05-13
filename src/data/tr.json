@@ -1,19 +1,55 @@
 {
-  "nav":{
+  "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımda",
     "angebote": "Hizmetlerim",
     "cost": "Seans Ücretleri",
     "contact": "iletisim"
   },
-  "home": {
-    "title": "Hoşgeldiniz",
-    "description": "Bu, Türkçe ana sayfanız.",
-    "button": "Buraya tıklayın"
-
+  "Quotes": {
+    "quoteHome": "Farkındalık, tekrar iletişim kurmamıza yardımcı olabilir, özellikle de kendimizle. –Thich Nhat Hanh ",
+    "quoteTherapie1": "“Bu senin yolun, yalnızca senin. Başkaları bu yolu seninle birlikte yürüyebilir; fakat kimse senin için yürüyemez. –Mevlana ",
+    "quoteTherapie2": "İnsani varoluşun anlamına yönelik soruya akla yatkın ve tatmin edici tek yanıt sevgidir. –Erich Fromm ",
+    "quoteTherapie3": "Hayat, en muhteşem halini göstermek için bir krizin oluşmasını bekler her zaman.–Paulo Coelho "
   },
-  "about": {
-    "title": "Hakkımızda",
-    "content": "Bizimle ilgili daha fazla bilgi."
+  "home": {
+    "name": "Duygu Fröhlich",
+    "title": "Uzman Psikolog Sistemik Terapist/Aile Terapisti (DGSF)",
+    "description": "Merhabalar, ben Duygu Fröhlich. Uzman psikoloğum ve aynı zamanda sistemik aile terapistiyim. 2014 yılından beri psikolog olarak görevimi sürdürüyor; bireylere, çiftlere, ailelere ve ebeveynlere danışmanlık ve terapi hizmeti sunuyorum. Seanslar sürecinde danışanlara acılarının kendilerine özgün sebeplerine inerek kendilerine ve yakınlarına karşı farkında ve şefkatli bir yaklaşım geliştirmeleri konusunda destek oluyorum.",
+    "button": "Daha fazla bilgi"
+  },
+  "angebote": {
+    "title": "Hizmetlerim",
+    "therapie1": "Bireysel Terapi",
+    "content1": "Sahip olduğumuz yeteneklerin ve olanakların artık sorunlarımızı çözmeye yetmediği zamanlar olur. Bunun negatif etkileri başta iş, ilişki, okul, mesleki eğitim, aile olmak üzere birçok hayat alanımıza yansır. Dolayısıyla uyku bozuklukları, psikosomatik şikayetler, kaygılar, depresif ruh halleri gibi belirtiler baş gösterir. Birlikte kalıcı bir düzelme sağlayabilir ve hayatınızda mutluluğa ve esenliğe daha çok yer açabiliriz. ",
+    "therapie2": "Çift Terapisi",
+    "content2": "Mutlu bir ilişkiyi sürdüren kişiler hayatta daha sağlam adımlarla ilerlerler. Ancak diğer yandan ilişkideki problemler psikolojik sağlığı önemli ölçüde zarara uğratıp diğer yaşam alanlarını da olumsuz yönde etkileyebilir. Şu ana kadar gerçekleştirdiğim çift görüşelerinde şunu deneyimleme fırsatı buldum: Karşılıklı anlayış ve iletişim becerilerinin geliştirilmesi sayesinde çift olarak katılımda terapinin olumlu etkisi katbekat artmakta. ",
+    "therapie3": "Ebeveyn Danışmanlığı",
+    "content3": "Çocuklukların ve ergenlerin hızlı gelişim dönemleri olması ebeveynlere çokça mutluluk ve gurur dolu anlar yaşatır.Öte yandan bu durum, ebeveyn-çocuk ilişkisini tekrarlayan şekilde yeni zorluklara sürükler. Kişi, böyle zamanlarda kendi çocukluk deneyimleriyle de daha bir yüzleşir, ancak daha iyi alternatifler bulmakta zorlanır. Çocuk eğitiminin sağlıklı yöntemleri çıkabilecek sorunları önlemede etkili olur ve aile hayatının huzurlu sürdürülmesini sağlar. Kriz durumlarında ise anne ve babalar kendilerini de ihmal etmeden çocuklarının ihtiyaçlarını daha iyi tespit edip gidermeyi öğrenebilirler.",
+    "angeboteInfoTitle": "Hizmetlerim Hakkında Bilgi",
+    "angeboteInfoContent1": "Görüşmeler online olarak da gerçekleştirilebilir.",
+    "angeboteInfoContent2": "Olası danışma dilleri: Türkçe, Almanca, İngilizce.",
+    "angeboteInfoContent3": "Gizlilik yükümlülüğüne tabiyim.",
+    "angeboteInfoContent4": "Not: Sistemik terapi, psikolojik bir psikoterapinin veya tıbbi bir tedavinin yerini tutmaz. Akut kriz durumlarında lütfen ilgili birimlere başvurun.",
+    "angeboteInfoContent5": "Hizmetimin sizin ihtiyacınıza uygun olup olmadığını ilk görüşmede birlikte değerlendiriyoruz."
+  },
+  "costs": {
+    "title": "Seans Ücretleri",
+    "content": "Terapi ve danışmanlık hizmetlerim için seans ücretleri şöyledir:",
+    "const1": "Sesli veya Görüntülü Ön Görüşme (30 dk.)",
+    "cost2": "Bireysel Seans (60 dk.)",
+    "cost3": "Çift Terapisi (90 dk.)",
+    "costButton": "İletişim",
+    "conditions": "Koşullar",
+    "condition1": "Randevunuzu 24 saat öncesine kadar ücretsiz şekilde iptal edebilir ya da değiştirebilirsiniz.",
+    "condition2": "Son 24 saat içerisindeki iptallerde veya gelinmeyen seanslarda ücretin yarısı faturalandırılacaktır.",
+    "condition3": "Seans sonrasında size faturasını göndereceğim.",
+    "condition4": "Alman Katma Değer Vergisi Yasasınca (§ 19 UstG) bu hizmet vergiden muaftır."
+  },
+  "contact":{
+    "title": "Benimle iletişime geçebilirsiniz",
+    "content": "Seanslar yalnızca önceden belirlenen randevu ile mümkündür.",
+    "button": "İletişim"
   }
+  
 }

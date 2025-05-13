@@ -1,23 +1,54 @@
 {
-  "nav":{
+  "nav": {
     "home": "Startseite",
     "about": "Über mich",
     "angebote": "Angebote",
     "cost": "Behandlungskosten",
     "contact": "Kontakt"
-
+  },
+  "Quotes": {
+    "quoteHome": "Achtsamkeit kann uns dabei helfen, wieder zu kommunizieren, vor allem mit uns selbst.–Thich Nhat Hanh",
+    "quoteTherapie1": "Es ist dein Weg, und nur deiner. Andere mögen ihn mit dir gehen, aber niemand kann ihn für dich gehen. –Rumi ",
+    "quoteTherapie2": "Liebe ist die einzig vernünftige und befriedigende Antwort auf die Frage nach dem Sinn der menschlichen Existenz. –Erich Fromm ",
+    "quoteTherapie3": "Das Leben wartet immer darauf, dass eine Krise eintritt, bevor es sich von seiner glänzendsten Seite zeigt. –Paulo Coelho "
   },
   "home": {
-    "title": "Willkommen",
-    "description": "Dies ist die deutsche Startseite.",
-    "button": "Klicken Sie hier"
+    "name": "Duygu Fröhlich",
+    "title": "Psychologin M.A.Systemische Therapeutin/Familientherapeutin (DGSF)",
+    "description": "Hallo, ich bin Duygu Fröhlich, Psychologin M.A, systemische Therapeutin und Familientherapeutin (DGSF). Seit 2014 bin ich als Psychologin tätig, und biete Einzel-, Paarund Familienberatung bzw. -therapie und Erziehungsberatung an. In den Gesprächen unterstütze ich Menschen dabei, einzigartige Hintergründe ihres Leidens besser zu verstehen und einen achtsamen und liebevollen Umgang mit sich selbst und dadurch mit ihren Mitmenschen zu entwickeln",
+    "button": "Mehr erfahren"
   },
-  "about": {
-    "title": "Über uns",
-    "content": "Mehr über uns erfahren."
+  "angebote": {
+    "title": "Angebote",
+    "therapie1": "Einzeltherapie",
+    "content1": "Im Leben kommt es vor, dass wir unsere Probleme mit den vorhandenen Fertigkeiten und Ressourcen nicht mehr bewältigen können. Dessen Auswirkungen merken wir in mehreren Bereichen unseres Lebens, z.B. Arbeit, Beziehung, Studium, Ausbildung, Familie. Dadurch treten viele Symptome wie Schlafstörungen, psychosomatische Beschwerden, Ängste, depressive Zustände, ein. Zusammen können wir eine nachhaltige Verbesserung bewirken und mehr Freude und Gelassenheit in Ihrem Leben ermöglichen",
+    "therapie2": "Paartherapie",
+    "content2": "Menschen in einer glücklichen Beziehung gehen gestärkter durch das Leben. Andersherum können aber die Probleme in einer Partnerschaft die psychische Gesundheit enorm beeinträchtigen und die anderen Lebensbereiche auch negativ beeinflussen. In den Paargesprächen durfte ich bisher die Erfahrung machen, dass durch das gegenseitiges Verständnis und durch die Verbesserung der Kommunikationsfähigkeit die positive Wirkung der Therapie sich potenziert",
+    "therapie3": "Erziehungsberatung",
+    "content3": "Die schnellen Entwicklungen im Kindes- und Jugendalter schenken den Eltern viele freudige und stolze Momente. Gleichzeitig stellen sie die Eltern-Kind-Beziehung immer vor neue Herausforderungen. Die eigenen kindlichen Erfahrungen werden in dieser Phase einem auch bewusster und einem fehlen meistens die besseren Alternativen. Vorbeugend können gesunde Erziehungsmethoden helfen, stets einen entspannten Familienalltag zu gestallten. Bei Krisen können die Eltern lernen, sowohl für ihre eigenen Bedürfnisse zu sorgen als auch die Bedürfnisse ihres Kindes besser einzuordnen und zu befriedigen. ",
+    "angeboteInfoTitle": "Informationen zu meinen Angeboten",
+    "angeboteInfoContent1": "Die Gespräche können auch online stattfinden.",
+    "angeboteInfoContent2": "Mögliche Behandlungsprachen: Türkisch, Deutsch, Englisch.",
+    "angeboteInfoContent3": "Ich unterliege der Schweigepflicht.",
+    "angeboteInfoContent4": "Hinweis: Die systemische Therapie ersetzt nicht eine psychologische Psychotherapie oder eine ärztliche Behandlung. In akuten Krisen wenden Sie sich bitte an die entsprechenden Stellen.",
+    "angeboteInfoContent5": "Ob mein Angebot für Ihr Anliegen geeignet ist, klären wir gemeinsam im Erstgespräch."
   },
-  "kontakt": {
-    "title": "Kontakt",
-    "content": "Kontakt"
+  "costs": {
+    "title": "Behandlungskosten",
+    "content": "Mein Honorar für Therapie oder Beratung gestaltet sich wie folgt:",
+    "const1": "Erstgespräch als Telefon- oder Videogespräch bis zu 30 Minuten",
+    "cost2": "Einzelsitzung bis zu 60 Minuten",
+    "cost3": "Paartherapie bis zu 90 Minuten",
+    "costButton": "Kontakt",
+    "conditions": "Konditionen",
+    "condition1":"Ein Termin kann bis zu 24 Stunden vorherkostenlos abgesagt   oder verschoben werden.",
+    "condition2":"Bei einer kurzfristigen Absage (< 24 Stunden) oder bei nicht wahrgenommenen Terminen wird die Hälfte des Honorars berechnet.",
+    "condition3":"Nach der Sitzung schicke ich eine Rechnung.",
+    "condition4":"Gemäß § 19 UstG fällt keine Umsatzsteuer an." 
+  },
+  "contact":{
+    "title": "Kontakt mich",
+    "content": "Bitte beachten Sie, dass Termine nur nach vorheriger Vereinbarung stattfinden.",
+    "button": "zum Kontakt"
   }
 }
