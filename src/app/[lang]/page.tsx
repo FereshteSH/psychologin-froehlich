@@ -7,9 +7,6 @@ export default async function Home({ params }: { params: Params }) {
 
   return (
     <main>
-      <h1 className="">{content.title}</h1>
-      <p className="">{content.description}</p>
-      {/* <button>{content.button}</button> */}
     </main>
   );
 }

@@ -63,7 +63,7 @@ p {
 /*         Buttons              */
 /* ----------------------------- */
 .btndetr {
-  @apply px-6 py-2 font-medium rounded-full transition;
+  @apply w-15 h-10  font-bold rounded-full transition;
   background-color: var(--color-button-bg);
   color: var(--color-button-text);
   font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
@@ -89,7 +89,7 @@ a {
   color: var(--color-heading);
 }
 a:hover {
-  background-color: var(--color-background);
+  @apply underline
 }
 
 /* ----------------------------- */
@@ -109,4 +109,12 @@ a:hover {
 
 .font-khyay {
   font-family: var(--font-burmese);
+}
+
+
+.navi{
+  @apply w-full px-2 py-2 ;
+  background-color: var(--color-bg-navi);
+  color: var(--color-heading);
+  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
 }
