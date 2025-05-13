@@ -1,92 +1,112 @@
 @import "tailwindcss";
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* بدنه سایت */
+/* ----------------------------- */
+/*       Root CSS Variables     */
+/* ----------------------------- */
+:root {
+  --color-background: rgba(203, 213, 188, 0.4);
+  --color-bg-navi: rgba(250, 243, 224, 0.5);
+  --color-foreground: #FAF3E0;
+  --color-heading: #567B5C;
+  --color-paragraph: #115F52;
+  --color-button-bg: #CBD5BC;
+  --color-button-hover: #a3c6b4;
+  --color-button-text: #567b5c;
+  --color-btn-border: #7AAEAA;
+
+  --font-handwriting: 'Handlee', cursive;
+  --font-burmese: 'MyanmarKhyay', sans-serif;
+}
+
+/* ----------------------------- */
+/*        Custom Font Faces     */
+/* ----------------------------- */
+@font-face {
+  font-family: 'MyanmarKhyay';
+  src: url('/fonts/MyanmarKhyay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ----------------------------- */
+/*         Base Styles          */
+/* ----------------------------- */
 body {
-  @apply font-sans text-gray-800 bg-[rgba(203,213,188,0.4)];
+  @apply font-sans;
+  background-color: var(--color-background);
+  color: var(--color-paragraph);
 }
 
-/* عنوان‌ها */
+/* ----------------------------- */
+/*         Headings             */
+/* ----------------------------- */
 h1, h2, h3 {
-  @apply font-bold text-[#567B5C];
+  @apply font-bold;
+  color: var(--color-heading);
+  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
 }
 
-/* دکمه‌ها */
+/* ----------------------------- */
+/*         Paragraphs           */
+/* ----------------------------- */
+p {
+  @apply leading-relaxed text-base;
+  color: var(--color-paragraph);
+  font-family: var(--font-handwriting); /* 👈 Apply Handlee font */
+}
+
+/* ----------------------------- */
+/*         Buttons              */
+/* ----------------------------- */
 .btndetr {
-  @apply px-6 py-2 bg-[#c6dfce] hover:bg-[#a3c6b4] text-gray-700 font-medium rounded-full transition;
+  @apply px-6 py-2 font-medium rounded-full transition;
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
+
+}
+.btndetr:hover {
+  background-color: var(--color-button-hover);
 }
 
 .btn {
-  @apply px-8 py-3 bg-[#c6dfce] text-[#4a6d5e] font-medium rounded-full 
-         border border-[#7ea79c] shadow-md hover:shadow-lg transition;
+  @apply px-8 py-3 font-medium rounded-full border shadow-md hover:shadow-lg transition;
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  border-color: var(--color-btn-border);
+  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
 }
 
-
-/* پاراگراف‌ها */
-p {
-  @apply leading-relaxed text-base text-[#567B5C];
-}
-
-/* لینک‌ها */
+/* ----------------------------- */
+/*         Links                */
+/* ----------------------------- */
 a {
-  @apply text-[#567B5C] hover:bg-[rgba(203,213,188,0.4)] p-2 rounded-full;
+  @apply p-2 rounded-full;
+  color: var(--color-heading);
 }
-.component{
-  @apply bg-[#FAF3E0] w-full h-auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+a:hover {
+  background-color: var(--color-background);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ----------------------------- */
+/*        Components            */
+/* ----------------------------- */
+.component {
+  @apply w-full h-auto;
+  background-color: var(--color-foreground);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ----------------------------- */
+/*       Font Utility Classes   */
+/* ----------------------------- */
+.font-handlee {
+  font-family: var(--font-handwriting);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
+.font-khyay {
+  font-family: var(--font-burmese);
+}
