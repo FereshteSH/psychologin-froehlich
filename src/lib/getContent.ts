@@ -3,6 +3,7 @@ import tr from '../data/tr.json';
 
 // Define the structure of your page content
 type Content = {
+  name: ReactNode;
   title: string;
   description?: string;
   content?: string;
