@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="pt-20">
       <h1>Kontakt</h1>
     </div>
   );

@@ -10,6 +10,7 @@
 :root {
   --color-background: rgba(203, 213, 188, 0.4);
   --color-bg-navi: rgba(250, 243, 224, 0.5);
+  --color-bg-navi-mobile:rgb(203, 213, 188 );
   --color-foreground: #FAF3E0;
   --color-heading: #567B5C;
   --color-paragraph: #115F52;
@@ -66,11 +67,16 @@ p {
 /*         Buttons              */
 /* ----------------------------- */
 .btndetr {
-  @apply w-15 h-10  font-bold rounded-full transition;
+  @apply w-15 h-10 font-bold rounded-full transition;
   background-color: var(--color-button-bg);
   color: var(--color-button-text);
-  font-family: var(--font-burmese); /* 👈 Apply Myanmar Khyay font */
+  font-family: var(--font-burmese);
+}
 
+@media (max-width: 640px) {
+  .btndetr {
+    @apply w-12 h-8 text-sm mr-5;
+  }
 }
 .btndetr:hover {
   background-color: var(--color-button-hover);
@@ -99,7 +105,8 @@ a:hover {
 /*        Components            */
 /* ----------------------------- */
 .component {
-  @apply w-full h-auto;
+  width: 100%;
+  height: auto;
   background-color: var(--color-foreground);
 }
 

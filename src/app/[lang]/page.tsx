@@ -6,9 +6,9 @@ export default async function Home() {
   // const content = getContent(params.lang, "home");
 
   return (
-    <main>
+    <main className="">
       
-  <Startseite/>
+    <Startseite/>
    
     </main>
     
