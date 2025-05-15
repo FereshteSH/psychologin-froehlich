@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const navData = require(`../data/${currentLang}.json`);
 

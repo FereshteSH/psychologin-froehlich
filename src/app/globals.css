@@ -18,6 +18,7 @@
   --color-button-hover: #a3c6b4;
   --color-button-text: #567b5c;
   --color-btn-border: #7AAEAA;
+  --color-footer-bg: #99BFAA,
 
   --font-handwriting: 'Handlee', cursive;
   --font-burmese: 'MyanmarKhyay', sans-serif;
@@ -25,7 +26,6 @@
 
 /* ----------------------------- */
 /*        Custom Font Faces     */
-/* ----------------------------- */
 @font-face {
   font-family: 'MyanmarKhyay';
   src: url('/fonts/MyanmarKhyay-Regular.ttf') format('truetype');
