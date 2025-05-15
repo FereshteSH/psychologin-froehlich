@@ -10,24 +10,24 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
   const navData = require(`../data/${currentLang}.json`);
 
   return (
-    <nav className="w-full px-4 py-2 navi shadow-md relative h-20">
+    <nav className="w-full fixed top-0 left-0 navi shadow-md relative  h-20 md:h-30 ">
       {/* Desktop layout */}
-      <div className="hidden md:flex items-center justify-between">
+      <div className="hidden md:flex items-center justify-between ">
         {/* Left links */}
-        <div className="flex gap-6 mt-5 ml-5">
-          <Link href={`/${currentLang}`}>{navData.nav.home}</Link>
-          <Link href={`/${currentLang}/about`}>{navData.nav.about}</Link>
-          <Link href={`/${currentLang}/angebote`}>{navData.nav.angebote}</Link>
+        <div className="flex gap-6 mt-8 ml-15">
+          <Link href={`/${currentLang}`} className='text-2xl'>{navData.nav.home}</Link>
+          <Link href={`/${currentLang}/about`} className='text-2xl'>{navData.nav.about}</Link>
+          <Link href={`/${currentLang}/angebote`} className='text-2xl'>{navData.nav.angebote}</Link>
         </div>
 
         {/* Center logo */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 ">
+        <div className="absolute left-1/2 transform -translate-x-1/2 mt-5">
           <Link href={`/${currentLang}`}>
             <Image
               src="/images/logo.jpg"
               alt="Logo"
-              width={60}
-              height={60}
+              width={98}
+              height={90}
               className="rounded-full"
               priority
             />
@@ -35,9 +35,9 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
         </div>
 
         {/* Right links + Language button */}
-        <div className="flex items-center gap-6 mt-5">
-          <Link href={`/${currentLang}/cost`}>{navData.nav.cost}</Link>
-          <Link href={`/${currentLang}/contact`}>{navData.nav.contact}</Link>
+        <div className="flex items-center gap-6 mt-8 mr-15">
+          <Link href={`/${currentLang}/cost`} className='text-2xl'>{navData.nav.cost}</Link>
+          <Link href={`/${currentLang}/contact`} className='text-2xl'>{navData.nav.contact}</Link>
           <LanguageSwitcher />
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
       {/* Mobile layout with hamburger */}
       <div className="md:hidden flex justify-between items-center">
         <button
-          className="text-green-700"
+          className=""
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Menu"
         >
@@ -61,7 +61,7 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
           <Image
             src="/images/logo.jpg"
             alt="Logo"
-            width={50}
+            width={60}
             height={50}
             className="rounded-full"
             priority
