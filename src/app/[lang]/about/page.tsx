@@ -1,5 +1,4 @@
 import { getContent } from '@/src/lib/getContent'
-import { get } from 'http';
 
 
 type Params = { lang: "de" | "tr" };

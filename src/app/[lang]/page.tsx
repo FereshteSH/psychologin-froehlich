@@ -1,5 +1,5 @@
 import Startseite from "@/src/components/Startseite";
-
+import { getContent } from "@/src/lib/getContent";
 
 type Params = { lang: "de" | "tr" };
 

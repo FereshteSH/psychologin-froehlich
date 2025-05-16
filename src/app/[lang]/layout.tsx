@@ -2,8 +2,7 @@
 import { notFound } from 'next/navigation';
 import NavBar from '../../components/NavBar';
 import Footer from "@/src/components/Footer";
-import { getContent } from "../../lib/getContent";
-
+import '@/src/app/globals.css';
 
 const locales = ['de', 'tr'];
 
