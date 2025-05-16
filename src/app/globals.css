@@ -11,6 +11,7 @@
   --color-background: rgba(203, 213, 188, 0.4);
   --color-bg-navi: rgba(250, 243, 224, 0.5);
   --color-bg-navi-mobile:rgb(203, 213, 188 );
+  --color-bg-navi-scrolled: rgb(250, 243, 224);
   --color-foreground: #FAF3E0;
   --color-heading: #567B5C;
   --color-paragraph: #115F52;
@@ -58,7 +59,8 @@ h1, h2, h3 {
 /*         Paragraphs           */
 /* ----------------------------- */
 p {
-  @apply leading-relaxed text-base;
+  line-height: 1.625;
+  font-size: 1rem;
   color: var(--color-paragraph);
   font-family: var(--font-handwriting); /* 👈 Apply Handlee font */
 }

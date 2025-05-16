@@ -7,11 +7,11 @@ export default async function Home( { params }: { params: Params }) {
   const content = getContent(params.lang, "home");
 
   return (
-    <main className="pt-25 md:pt-35">
+    <main className="">
     <div>
       <h1>{content.name}</h1>
       <h1>{content.title}</h1>
-      <Startseite/>
+      <Startseite lang={params.lang} />
     </div>
     
    

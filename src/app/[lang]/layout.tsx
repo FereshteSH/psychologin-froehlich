@@ -21,7 +21,7 @@ export default function LangLayout({
 
   return (
     <html lang={params.lang}>
-      <body>
+      <body className='pt-25 md:pt-35'>
         <NavBar currentLang={params.lang as 'de' | 'tr'} />
         {children}
       </body>
