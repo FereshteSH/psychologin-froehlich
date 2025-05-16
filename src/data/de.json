@@ -50,6 +50,44 @@
     "title": "Kontakt mich",
     "content": "Bitte beachten Sie, dass Termine nur nach vorheriger Vereinbarung stattfinden.",
     "button": "zum Kontakt"
-  }
+  },
+  "aboutpage":{
+  "title": "Über mich",
+  "name": "Duygu Fröhlich",
+  "description":" Psychologin M.A.Systemische Therapeutin und Familientherapeutin (DGSF)",
+  "content":"Seit 2014 bin ich als Psychologin tätig, und biete Einzel-, Paar- und Familienberatung bzw. -therapie und Erziehungsberatung an. In den Gesprächen unterstütze ich Menschen dabei, einzigartige Hintergründe ihres Leidens besser zu verstehen und einen achtsamen und liebevollen Umgang mit sich selbst und dadurch mit ihren Mitmenschen zu entwickeln.",
+    "studium": "Studium:",
+    "content1": "M.A. in Psychology of Excellence in Business and Education Ludwig-Maximilians-Universität, München",
+    "content2": "Psychologiestudium (B.Sc.) Middle East Technical University, Ankara",
+    "Berufstätigkeit":"Berufstätigkeit:",
+    "Berufstätigkeitjahr1":"seit 2024",
+    "Berufstätigkeittext1":"Psychologischer Fachdienst, KJF München",
+    "Berufstätigkeitjahr2":"seit 2014",
+    "Berufstätigkeittext2":"Psychologin M.A., Psychologischer Dienst, AWO München",
+    "Berufstätigkeitjahr3":"2014-2024",
+    "Berufstätigkeittext3":"Muttersprachliche  Elterntrainerin, Refugio München ",
+    "Qualifikationen": "Qualifikationen:",
+    "Qualifikationen1":"Systemische Therapeutin/Familientherapeutin, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
+    "Qualifikationen2":"Systemischer Coach für Kinder und Jugendliche, Institut für Bildungscoaching",
+    "Qualifikationen3":"Strategisches Arbeiten mit komplexen Familiensystemen, IFW Institut für Fort- und Weiterbildung, München",
+    "Qualifikationen4":"Ausstieg aus organisierter ritueller Gewalt, Trauma Hilfe Zentrum München e.V. ",
+    "Qualifikationen5":"Umgang mit Traumafolgestörungen und kultursensible Beratung, Refugio München transfer",
+    "Qualifikationen6":"Weiterbildung in Systemischer Individual-, Paar- und Familientherapie, IFW Institut für Fort- und Weiterbildung, München ",
+    "Qualifikationen7":"Muttersprachliche Elternkursleitung, Refugio München Eltern-Aktiv"
+    },
+    "kontaktpage":{
+      "title":" InKontakt treten",
+      "name":"Name",
+      "vorname":"Vorname",
+      "telefonummer":"Telefonnummer",
+      "email":"Email",
+      "nachricht":"Nachricht",
+      "button":"Senden"
+    },
+    "footer":{
+      "impressum":"Impressum/",
+      "datenschutz":"Datenschutzerklärung"
+    }
+    
   
 }

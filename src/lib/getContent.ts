@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import de from '../data/de.json';
 import tr from '../data/tr.json';
 
@@ -10,7 +11,7 @@ type Content = {
 };
 
 // Define the available pages that can be in the JSON
-type Pages = 'home' | 'about'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact'; // Ensure this matches your JSON keys
 
 // Explicitly type the imported data as an object with the page keys
 const deData: Record<Pages, Content> = de;

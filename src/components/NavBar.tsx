@@ -8,6 +8,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import clsx from 'clsx'; // Make sure you have this installed: npm i clsx
 
 export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const navData = require(`../data/${currentLang}.json`);
