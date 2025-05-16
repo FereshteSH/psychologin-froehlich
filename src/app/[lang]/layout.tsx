@@ -1,6 +1,9 @@
 // app/[lang]/layout.tsx
 import { notFound } from 'next/navigation';
 import NavBar from '../../components/NavBar';
+import Footer from "@/src/components/Footer";
+import { getContent } from "../../lib/getContent";
+
 
 const locales = ['de', 'tr'];
 
@@ -24,6 +27,8 @@ export default function LangLayout({
       <body>
         <NavBar currentLang={params.lang as 'de' | 'tr'} />
         {children}
+        <Footer currentLang={params.lang as 'de' | 'tr'} />
+
       </body>
     </html>
   );
