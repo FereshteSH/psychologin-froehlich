@@ -7,17 +7,18 @@ export default function Footer({ currentLang }: { currentLang: 'de' | 'tr' }) {
   const footerData = require(`../data/${currentLang}.json`);
 
   return (
-    <div className="flex justify-between text-sm bg-[var(--color-button-hover)]  p-4 md:p-3 md:text-lg">
+    <div className="flex justify-between text-[11px] bg-[var(--color-button-hover)]  px-7 py-1  md:p-3 md:text-lg">
       <Image
-        src="/images/logo.jpg"
-        alt="Logo"
-        width={60}
-        height={50}
-        className="rounded-full"
-        priority
-      />
+  src="/images/logo.jpg"
+  alt="Logo"
+  width={35}
+  height={45}
+  className="rounded-full md:w-[60px] md:h-[65px]"
+  priority
+/>
+
         <div className="flex justify-center items-center ">
-      <Link href={`/${currentLang}`} className="font-bold ">
+      <Link href={`/${currentLang}`} className="font-bold   ">
         {footerData.footer.impressum}
       </Link>
 
