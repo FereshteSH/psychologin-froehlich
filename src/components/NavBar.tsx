@@ -5,31 +5,27 @@ import LanguageSwitcher from './LanguageSwitcher';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import clsx from 'clsx'; // Make sure you have this installed: npm i clsx
+import clsx from 'clsx';
 
 export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
-  
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const navData = require(`../data/${currentLang}.json`);
 
-  // Detect scroll position
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Lock scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
 
   const navClass = clsx(
-    'fixed top-0 left-0 w-full h-20 shadow-md flex items-center justify-between px-4 md:px-10 transition-colors duration-300 z-[100]',
+    'fixed top-0 left-0 w-full h-20 shadow-md flex items-center justify-between px-4 lg:px-10 transition-colors duration-300 z-[100]',
     {
       'bg-[var(--color-bg-navi)]': !isScrolled,
       'bg-[var(--color-bg-navi-scrolled)]': isScrolled,
@@ -38,12 +34,11 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
 
   return (
     <>
-      {/* Top Navbar (Mobile) */}
+      {/* Top Navbar (Mobile + Tablet) */}
       {!menuOpen && (
-        <nav className={`${navClass} md:hidden`}>
-          {/* Hamburger */}
+        <nav className={`${navClass} lg:hidden`}>
           <button
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => setMenuOpen(true)}
             aria-label="Toggle menu"
           >
@@ -52,7 +47,6 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
             </svg>
           </button>
 
-          {/* Logo */}
           <Link href={`/${currentLang}`}>
             <Image
               src="/images/logo.jpg"
@@ -64,12 +58,11 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
             />
           </Link>
 
-          {/* Language Switch */}
           <LanguageSwitcher />
         </nav>
       )}
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu (Mobile + Tablet) */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -77,11 +70,10 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-0 left-0 w-full h-screen z-[90] bg-[var(--color-bg-navi-mobile)] flex flex-col items-center justify-center gap-8 text-2xl md:hidden"
+            className="fixed top-0 left-0 w-full h-screen z-[90] bg-[var(--color-bg-navi-mobile)] flex flex-col items-center justify-center gap-8 text-2xl lg:hidden"
           >
-            {/* Close Button */}
             <button
-              className="absolute top-6 right-6"
+              className="absolute top-6 left-6"
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
             >
@@ -101,37 +93,37 @@ export default function NavBar({ currentLang }: { currentLang: 'de' | 'tr' }) {
 
       {/* Desktop Navbar */}
       <div className={clsx(
-        'hidden md:flex fixed top-0 left-0 w-full h-30 shadow-md z-[100] items-center justify-between px-10 transition-colors duration-300',
+        'hidden lg:flex fixed top-0 left-0 w-full h-30 shadow-md z-[100] items-center justify-between px-10 transition-colors duration-300',
         {
           'bg-[var(--color-bg-navi)]': !isScrolled,
           'bg-[var(--color-bg-navi-scrolled)]': isScrolled,
         }
       )}>
         {/* Left Links */}
-        <div className="flex gap-6">
-          <Link href={`/${currentLang}`} className='text-2xl'>{navData.nav.home}</Link>
-          <Link href={`/${currentLang}/about`} className='text-2xl'>{navData.nav.about}</Link>
-          <Link href={`/${currentLang}/angebote`} className='text-2xl'>{navData.nav.angebote}</Link>
+        <div className="flex gap-4 lg:gap-4">
+          <Link href={`/${currentLang}`} className='text-xl lg:text-2xl'>{navData.nav.home}</Link>
+          <Link href={`/${currentLang}/about`} className='text-xl lg:text-2xl'>{navData.nav.about}</Link>
+          <Link href={`/${currentLang}/angebote`} className='text-xl lg:text-2xl'>{navData.nav.angebote}</Link>
         </div>
 
         {/* Center Logo */}
-        <div className="absolute left-1/2 transform -translate-x-1/2">
+        <div className="absolute left-1/2 transform -translate-x-1/2 lg:ml-8 ">
           <Link href={`/${currentLang}`}>
             <Image
               src="/images/logo.jpg"
               alt="Logo"
-              width={90}
+              width={100}
               height={80}
-              className="rounded-full"
+              className="rounded-full "
               priority
             />
           </Link>
         </div>
 
         {/* Right Links */}
-        <div className="flex items-center gap-6">
-          <Link href={`/${currentLang}/cost`} className='text-2xl'>{navData.nav.cost}</Link>
-          <Link href={`/${currentLang}/contact`} className='text-2xl'>{navData.nav.contact}</Link>
+        <div className="flex items-center gap-4 lg:gap-9">
+          <Link href={`/${currentLang}/cost`} className='text-xl lg:text-2xl'>{navData.nav.cost}</Link>
+          <Link href={`/${currentLang}/contact`} className='text-xl lg:text-2xl'>{navData.nav.contact}</Link>
           <LanguageSwitcher />
         </div>
       </div>
