@@ -69,25 +69,27 @@
     "Berufstätigkeitjahr3": "2014-2024",
     "Berufstätigkeittext3": "Uzman Psikolog,Psikolojik Danışma Merkezi, AWO München",
     "Qualifikationen": "Uzmanlıklar:",
-    "Qualifikationen1": "Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
-    "Qualifikationen2": "“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
-    "Qualifikationen3": "Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
-    "Qualifikationen4": "“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
-    "Qualifikationen5": "“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
-    "Qualifikationen6": "“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
-    "Qualifikationen7": "“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
-  },
-  "kontaktpage": {
-    "title": "İletişim",
-    "name": "Soyadı",
-    "vorname": "Adı",
-    "telefonummer": "Telefon Numarası",
-    "email": "E-posta",
-    "nachricht": "Mesaj",
-    "button": "Gönder"
-  },
-  "footer": {
-    "impreessum": "Künye",
-    "datenschutz": "Gizlilik Politikası"
-  }
+    "Qualifikationen1":"Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
+    "Qualifikationen2":"“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
+    "Qualifikationen3":"Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
+    "Qualifikationen4":"“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
+    "Qualifikationen5":"“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
+    "Qualifikationen6":"“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
+    "Qualifikationen7":"“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
+    },
+   "kontaktpage": {
+  "title": "İletişim",
+  "name": "Soyadı",
+  "vorname": "Adı",
+  "telefonummer": "Telefon Numarası",
+  "email": "E-posta",
+  "nachricht": "Mesaj",
+  "button": "Gönder"
+},
+"footer": {
+  "impreessum": "Künye",
+  "datenschutz": "Gizlilik Politikası"
+}
+
+  
 }
