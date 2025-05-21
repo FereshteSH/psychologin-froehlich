@@ -8,9 +8,11 @@ export default async function Home( { params }: { params: Params }) {
 
   return (
     <main className="">
-    <div>
+    <div className="">
+      <div className="w-80 m-auto text-center p-4 ">
       <h1>{content.name}</h1>
       <h1>{content.title}</h1>
+      </div>
       <Startseite lang={params.lang} />
     </div>
     

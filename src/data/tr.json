@@ -7,7 +7,8 @@
     "contact": "iletisim"
   },
   "Quotes": {
-    "quoteHome": "Farkındalık, tekrar iletişim kurmamıza yardımcı olabilir, özellikle de kendimizle. –Thich Nhat Hanh ",
+    "quoteHome": "Farkındalık, tekrar iletişim kurmamıza yardımcı olabilir, özellikle de kendimizle.",
+    "quoteHomeAuthor": "–Thich Nhat Hanh",
     "quoteTherapie1": "“Bu senin yolun, yalnızca senin. Başkaları bu yolu seninle birlikte yürüyebilir; fakat kimse senin için yürüyemez. –Mevlana ",
     "quoteTherapie2": "İnsani varoluşun anlamına yönelik soruya akla yatkın ve tatmin edici tek yanıt sevgidir. –Erich Fromm ",
     "quoteTherapie3": "Hayat, en muhteşem halini göstermek için bir krizin oluşmasını bekler her zaman.–Paulo Coelho "
@@ -16,7 +17,7 @@
     "name": "Duygu Fröhlich",
     "title": "Uzman Psikolog Sistemik Terapist/Aile Terapisti (DGSF)",
     "description": "Merhabalar, ben Duygu Fröhlich. Uzman psikoloğum ve aynı zamanda sistemik aile terapistiyim. 2014 yılından beri psikolog olarak görevimi sürdürüyor; bireylere, çiftlere, ailelere ve ebeveynlere danışmanlık ve terapi hizmeti sunuyorum. Seanslar sürecinde danışanlara acılarının kendilerine özgün sebeplerine inerek kendilerine ve yakınlarına karşı farkında ve şefkatli bir yaklaşım geliştirmeleri konusunda destek oluyorum.",
-    "button": "Daha fazla bilgi"
+    "buttonText": "Daha fazla bilgi"
   },
   "angebote": {
     "title": "Hizmetlerim",
