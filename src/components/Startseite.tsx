@@ -19,9 +19,20 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
       />
       </div>
       <p className="pt-6 w-100 m-auto">{h.description}</p>
-      <div>
+      <div className="flex items-center justify-around ">
+        <div>
         <Button text={h.buttonText}/>
+        </div>
+        <div>
         <Quote text={q.quoteHome} author={q.quoteHomeAuthor} />
+        </div>
+      </div>
+      <div>
+        <Image 
+        
+        
+        
+        />
       </div>
     </div>
   );

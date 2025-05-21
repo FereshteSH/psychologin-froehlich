@@ -12,22 +12,25 @@ export default function Button({
   type = 'button',
 }: ButtonProps) {
   return (
-    <button
+    <div
       className={`
         inline-block 
-        rounded-full 
+        rounded-[52px]
         bg-[var(--color-button-bg)]
         p-[2px] 
-        shadow-md
+        w-[170px]
+        h-[60px]
+        shadow-lg
       `}
     >
       <button
         type={type}
         onClick={onClick}
-        className={`
-          px-8 py-4 
-          rounded-full 
+        className={`  
+          px-4 py-2 
+          rounded-[52px] 
           border-2 
+          mt-1
           border-[var(--color-btn-border)] 
           text-[var(--color-btn-text)]
           font-semibold 
@@ -39,6 +42,6 @@ export default function Button({
       >
         {text}
       </button>
-    </button>
+    </div>
   );
 }
