@@ -11,6 +11,7 @@ type Content = {
   title: string;
   description?: string;
   content?: string;
+  wordcloudPhoto?: string;
 };
 
 // Define the available pages that can be in the JSON

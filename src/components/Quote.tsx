@@ -7,7 +7,7 @@ type QuoteProps = {
 
 export default function Quote({ text, author }: QuoteProps) {
   return (
-    <div className="relative p-4 rounded-lg max-w-md mx-auto text-justify overflow-hidden w-50">
+    <div className="relative p-4 rounded-lg max-w-md mx-auto text-center overflow-hidden w-50">
       <img
         src="/images/RightDoubleQuote.svg"
         alt="Right quotation mark"
