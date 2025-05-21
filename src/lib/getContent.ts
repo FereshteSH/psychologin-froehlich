@@ -11,10 +11,22 @@ type Content = {
   title: string;
   description?: string;
   content?: string;
+  therapie1?: string;
+  content1?: string;
+  quoteTherapie1?: string;
+  quoteTherapie1Author?: string;
+  content2?: string;
+  therapie2?: string;
+  quoteTherapie2?: string;
+  quoteTherapie2Author?: string;
+  content3?: string;
+  therapie3?: string;
+  quoteTherapie3?: string;
+  quoteTherapie3Author?: string;
 };
 
 // Define the available pages that can be in the JSON
-type Pages = 'home' | 'about' | 'contact' | 'quotes'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'; // Ensure this matches your JSON keys
 
 // Explicitly type the imported data as an object with the page keys
 const deData = de as Record<string, any>;

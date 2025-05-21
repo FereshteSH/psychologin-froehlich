@@ -28,4 +28,4 @@ export default function Footer({ currentLang }: { currentLang: 'de' | 'tr' }) {
       </div>
     </div>
   );
-}
+} 

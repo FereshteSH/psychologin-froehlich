@@ -28,11 +28,7 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
         </div>
       </div>
       <div>
-        <Image 
-        
-        
-        
-        />
+       
       </div>
     </div>
   );

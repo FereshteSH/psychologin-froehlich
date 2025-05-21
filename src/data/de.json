@@ -9,9 +9,12 @@
   "quotes": {
     "quoteHome": "Achtsamkeit kann uns dabei helfen, wieder zu kommunizieren, vor allem mit uns selbst.",
     "quoteHomeAuthor": "–Thich Nhat Hanh",
-    "quoteTherapie1": "Es ist dein Weg, und nur deiner. Andere mögen ihn mit dir gehen, aber niemand kann ihn für dich gehen. –Rumi ",
+    "quoteTherapie1": "Es ist dein Weg, und nur deiner. Andere mögen ihn mit dir gehen, aber niemand kann ihn für dich gehen.",
+    "quoteTherapie1Author": "–Rumi",
     "quoteTherapie2": "Liebe ist die einzig vernünftige und befriedigende Antwort auf die Frage nach dem Sinn der menschlichen Existenz. –Erich Fromm ",
-    "quoteTherapie3": "Das Leben wartet immer darauf, dass eine Krise eintritt, bevor es sich von seiner glänzendsten Seite zeigt. –Paulo Coelho "
+    "quoteTherapie2Author": "–Erich Fromm",
+    "quoteTherapie3": "Das Leben wartet immer darauf, dass eine Krise eintritt, bevor es sich von seiner glänzendsten Seite zeigt. –Paulo Coelho ",
+    "quoteTherapie3Author": "–Paulo Coelho"
   },
   "home": {
     "name": "Duygu Fröhlich",
