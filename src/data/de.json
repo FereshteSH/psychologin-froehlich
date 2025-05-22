@@ -41,7 +41,7 @@
   "costs": {
     "title": "Behandlungskosten",
     "content": "Mein Honorar für Therapie oder Beratung gestaltet sich wie folgt:",
-    "const1": "Erstgespräch als Telefon- oder Videogespräch bis zu 30 Minuten",
+    "cost1": "Erstgespräch als Telefon- oder Videogespräch bis zu 30 Minuten",
     "cost2": "Einzelsitzung bis zu 60 Minuten",
     "cost3": "Paartherapie bis zu 90 Minuten",
     "costButton": "Kontakt",

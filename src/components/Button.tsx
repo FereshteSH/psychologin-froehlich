@@ -30,6 +30,8 @@ export default function Button({
           px-4 py-2 
           rounded-[52px] 
           border-2 
+          w-[150px]
+          h-[50px]
           mt-[5px]
           border-[var(--color-btn-border)] 
           text-[var(--color-btn-text)]

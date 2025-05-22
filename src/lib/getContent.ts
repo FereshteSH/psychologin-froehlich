@@ -23,12 +23,15 @@ type Content = {
   therapie3?: string;
   quoteTherapie3?: string;
   quoteTherapie3Author?: string;
-
   wordcloudPhoto?: string;
+  cost1?: string;
+  cost2?: string;
+  cost3?: string;
+  costButton?: string;
 };
 
 // Define the available pages that can be in the JSON
-type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'; // Ensure this matches your JSON keys
+type Pages = 'home' | 'about' | 'contact' | 'quotes' | 'angebote'| 'costs'; // Ensure this matches your JSON keys
 
 // Explicitly type the imported data as an object with the page keys
 const deData = de as Record<string, any>;

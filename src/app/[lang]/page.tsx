@@ -1,12 +1,15 @@
 import Startseite from "@/src/components/Startseite";
 import { getContent } from "@/src/lib/getContent";
 import Angebote from "@/src/components/Angebote";
+import Costs from "@/src/components/Costs";
 
 type Params = { lang: "de" | "tr" };
 
 export default async function Home( { params }: { params: Params }) {
   const content = getContent(params.lang, "home");
   const angebottitle = getContent(params.lang, "angebote");
+  const costs = getContent(params.lang, "costs");
+
   return (
     <main className="">
     <section className="">
@@ -20,6 +23,10 @@ export default async function Home( { params }: { params: Params }) {
     <h2 className="m-10 text-center text-[30px] ">{angebottitle.title}</h2>
     
     <Angebote lang={params.lang} />
+    </section>
+    <section>
+    <h2 className="m-10 text-center text-[30px] ">{costs.title}</h2>
+    <Costs lang={params.lang} />
     </section>
   </main>
 
