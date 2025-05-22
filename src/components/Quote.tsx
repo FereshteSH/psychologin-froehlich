@@ -11,11 +11,11 @@ export default function Quote({ text, author }: QuoteProps) {
       <img
         src="/images/RightDoubleQuote.svg"
         alt="Right quotation mark"
-        className="absolute -top-20 left-1/2 ml-15 -translate-x-1/2 opacity-10 -z-0 select-none w-80 h-80 pointer-events-none "
+        className="absolute -top-20 left-1/2 ml-15 -translate-x-1/2 opacity-10 -z-0 select-none w-80 h-80 pointer-events-none lg:w-100 lg:h-100 lg:-top-30 "
       />
 
       {/* Quote Text */}
-      <p className="relative !text-[11px] z-10  !text-[#243433] -mb-5">
+      <p className="relative !text-[11px] z-10  !text-[#243433] -mb-5 lg:!text-[15px]">
         {text}
       </p>
 
