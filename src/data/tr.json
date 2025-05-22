@@ -61,21 +61,21 @@
     "studium": "Eğitim:",
     "content1": "Psychology of Excellence in Business and Education (Yüksek Lisans), Ludwig-Maximilians-Universität, Münih",
     "content2": "Psikoloji (Lisans), Orta Doğu Teknik Üniversitesi, Ankara",
-    "Berufstätigkeit": "İş Deneyimi:",
-    "Berufstätigkeitjahr1": "2024’ten beri ",
-    "Berufstätigkeittext1": "Psikolojik Hizmet Uzmanı, KJF München",
-    "Berufstätigkeitjahr2": "2024’ten beri",
-    "Berufstätigkeittext2": "Anadilde Ebeveyn Eğitmeni, Refugio München",
-    "Berufstätigkeitjahr3": "2014-2024",
-    "Berufstätigkeittext3": "Uzman Psikolog,Psikolojik Danışma Merkezi, AWO München",
-    "Qualifikationen": "Uzmanlıklar:",
-    "Qualifikationen1":"Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
-    "Qualifikationen2":"“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
-    "Qualifikationen3":"Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
-    "Qualifikationen4":"“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
-    "Qualifikationen5":"“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
-    "Qualifikationen6":"“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
-    "Qualifikationen7":"“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
+    "berufstätigkeit": "İş Deneyimi:",
+    "berufstätigkeitjahr1": "2024’ten beri ",
+    "berufstätigkeittext1": "Psikolojik Hizmet Uzmanı, KJF München",
+    "berufstätigkeitjahr2": "2024’ten beri",
+    "berufstätigkeittext2": "Anadilde Ebeveyn Eğitmeni, Refugio München",
+    "berufstätigkeitjahr3": "2014-2024",
+    "berufstätigkeittext3": "Uzman Psikolog,Psikolojik Danışma Merkezi, AWO München",
+    "qualifikationen": "Uzmanlıklar:",
+    "qualifikationen1":"Sistemik Terapist/Aile Terapisti, Deutsche Gesellschaft für Systemische Therapie, Beratung und Familientherapie (DGSF) ",
+    "qualifikationen2":"“Çocuklar ve Gençler için Sistemik Koç”, Institut für Bildungscoaching",
+    "qualifikationen3":"Karmaşık Aile Sistemleriyle Stratejik Çalışma”IFW Institut für Fort- und Weiterbildung",
+    "qualifikationen4":"“Örgütlü Törensel İstismardan Çıkış” Trauma Hilfe Zentrum München e.V.",
+    "qualifikationen5":"“Travma Sonrası Bozukluklarla Baş Etme ve Kültüre Duyarlı Danışma”, Refugio München transfer",
+    "qualifikationen6":"“Sistemik Birey, Çift ve Aile Terapisi Eğitimi”, IFW Institut für Fort- und Weiterbildung  ",
+    "qualifikationen7":"“Anadilde Ebeveyn Kursu Eğitmeni”, Refugio München Eltern-Aktiv"
     },
    "kontaktpage": {
   "title": "İletişim",
@@ -87,7 +87,7 @@
   "button": "Gönder"
 },
 "footer": {
-  "impreessum": "Künye",
+  "impressum": "Künye",
   "datenschutz": "Gizlilik Politikası"
 }
 
