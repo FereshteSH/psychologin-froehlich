@@ -30,7 +30,7 @@ export default function Button({
           px-4 py-2 
           rounded-[52px] 
           border-2 
-          mt-1
+          mt-[5px]
           border-[var(--color-btn-border)] 
           text-[var(--color-btn-text)]
           font-semibold 

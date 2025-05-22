@@ -23,6 +23,8 @@ type Content = {
   therapie3?: string;
   quoteTherapie3?: string;
   quoteTherapie3Author?: string;
+
+  wordcloudPhoto?: string;
 };
 
 // Define the available pages that can be in the JSON

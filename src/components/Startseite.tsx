@@ -24,11 +24,19 @@ export default function Startseite({lang}: {lang: "de" | "tr"}) {
         <Button text={h.buttonText}/>
         </div>
         <div>
-        <Quote text={q.quoteHome} author={q.quoteHomeAuthor} />
+        <Quote text={q?.quoteHome || "default quote"} author={q?.quoteHomeAuthor || "anonymous"} />
         </div>
       </div>
       <div>
-       
+
+        <Image 
+        src={h.wordcloudPhoto || "/images/default-wordcloud.jpg"}
+        alt="Wordcloud"
+        width={400}
+        height={390}
+        priority
+        
+        />
       </div>
     </div>
   );
